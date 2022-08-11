@@ -11,7 +11,7 @@ function solution(numbers) {
   return [...new Set(answers)].sort((a, b) => a - b);
 }
 
-// 다른 사람 풀이
+// 다른 사람 풀이 - 전반적으로 비슷. for 문 내에 continue를 썼다는 차이만 존재
 function solution(numbers) {
   let answer = [];
   for (let i = 0; i < numbers.length; i++) {
